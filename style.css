@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: radial-gradient(#c7c7c7 25% ,#c7c7c7 75%);
+    font-family: bookman old style;
+}
+.main{
+    height: 1350px;
+    width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    font-size: 15px;
+}
+.partiegauche{
+background-color: #44ae95;
+height: 1350px;
+width: 245px;
+float: left;
+}
+h1{
+    color: white;
+}
+.p1{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.profile-img{
+    width: 180px; 
+    height: 180px;
+    margin-left: 30px;
+    margin-bottom: -10px;
+}
+/* on utilise color pour changer la couleur du texte en blanc
+font-weigth pour mettre l'écriture en gras
+font-size pour changer la taille de l'écriture
+margin -left pour definir la marge à gauche
+background-color pour definir la couleur du fond ou d'arriere plan
+line- height pour definir les interlines
+border-bottoum bordure en bas ( tracer une ligne en bas)
+*/
+.p2{
+    color: white;  
+    font-weight: bold;
+font-size: 20px;
+margin-left: 10px;
+}
+.box-1{
+    background-color: #1f7767;
+}
+.p3{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 10px;
+}
+:root{
+    --success:white;
+    --progress:white;
+}
+.barre-de-progression{
+    background-color: #1f7767;
+    color: white;
+    width: 80%;
+    margin-left: 20px;
+    height: 8px;
+}
+.progression1{
+ background-color: var(--progress); 
+ color: white;
+ height: 8px;  
+}
+.progression1[tille=dowloding]{
+    background-color: var(--progress); 
+}
+.mp4{
+    width: 100%;
+}
+.mp3{
+    width: 70%;  
+}
+.progression1[tille=dowloded]{
+    background-color: var(--success); 
+}
+.partiedroite{
+    margin-left: 270px;
+}
+.p5{
+    color: #1f7767;
+    font-weight: bold;
+    font-size: 20px;
+    border-top: 2px solid #c7c7c7;
+    border-bottom: 2px solid #c7c7c7;
+}
+.date{
+    width: 20px;
+    float: left;
+    margin-top: 0px;
+}
+.p6{
+margin-left: 120px;
+font-weight:bold ;
+margin-bottom: 0px;
+}
+span{
+    margin-left: 100px; 
+    font-weight:bold ;
+    font-style: italic;
+    font-size: 15px;
+}
+ul li{
+    margin-left:100px;  
+    line-height: 25px;
+}
+.p8{
+    margin-left: 120px;
+    font-weight:bold   
+}
+.p9{
+    margin-left: 120px;
+}
+.p7{
+    width: 400px;
+    margin-left: 120px;
+    line-height:25px ;
+}
+.p4{
+    line-height: 25px;  
+}
